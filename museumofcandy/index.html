@@ -66,13 +66,80 @@
     </section>
 
     <section class="container-fluid px-0">
-        <div class="row">
+        <div class="row align-items-center content">
             <div class="col-md-6">
                 <img src="imgs/milk.png" alt="" class="img-fluid">
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam assumenda
+                            molestiae
+                            ipsum alias neque, voluptatibus fugit expedita, maiores excepturi perspiciatis veritatis
+                            mollitia?
+                            Accusamus iusto nam voluptate nulla ipsam repellat quas.
+                            Repellat, officia ex ea corporis reiciendis fugiat id harum? Suscipit ipsam fugiat, tempora
+                            deserunt
+                            tempore ea nostrum omnis assumenda saepe fuga accusantium nam qui, ducimus quisquam at
+                            dolorem
+                            veritatis obcaecati!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row align-items-center content">
+
+
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam assumenda
+                            molestiae
+                            ipsum alias neque, voluptatibus fugit expedita, maiores excepturi perspiciatis veritatis
+                            mollitia?
+                            Accusamus iusto nam voluptate nulla ipsam repellat quas.
+                            Repellat, officia ex ea corporis reiciendis fugiat id harum? Suscipit ipsam fugiat, tempora
+                            deserunt
+                            tempore ea nostrum omnis assumenda saepe fuga accusantium nam qui, ducimus quisquam at
+                            dolorem
+                            veritatis obcaecati!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img src="imgs/gumball.png" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center content">
+            <div class="col-md-6">
+                <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>MUSEUM OF CANDY</h2>
+                        <img src="imgs/lolli_icon.png" alt="">
+                        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam assumenda
+                            molestiae
+                            ipsum alias neque, voluptatibus fugit expedita, maiores excepturi perspiciatis veritatis
+                            mollitia?
+                            Accusamus iusto nam voluptate nulla ipsam repellat quas.
+                            Repellat, officia ex ea corporis reiciendis fugiat id harum? Suscipit ipsam fugiat, tempora
+                            deserunt
+                            tempore ea nostrum omnis assumenda saepe fuga accusantium nam qui, ducimus quisquam at
+                            dolorem
+                            veritatis obcaecati!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -88,6 +155,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this.scrollTop() > $nav.height()));
+            })
+        })
+    </script>
 </body>
 
 </html>
